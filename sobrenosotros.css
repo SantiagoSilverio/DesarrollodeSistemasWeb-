@@ -1,0 +1,87 @@
+body {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Asegura que no haya margen exterior */
+    padding: 0; /* Asegura que no haya relleno interior */
+    box-sizing: border-box; /* Asegura que el ancho y alto se calculen con el borde y el relleno incluidos */
+}
+
+nav,
+#logo {
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+nav,
+#link {
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.container-fluid {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    height: auto; /* Ajustado para que el contenido defina la altura */
+    margin-top: 18px;
+}
+
+.container-fluid h2 {
+    color: #333;
+    text-align: center;
+}
+
+.container-fluid p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.container-fluid ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.container-fluid img {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: #ffffff;
+    text-align: center;
+    position: fixed; /* Cambiado de absolute a fixed para anclar al fondo */
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    padding: 0; /* Asegura que no haya relleno interior */
+}
