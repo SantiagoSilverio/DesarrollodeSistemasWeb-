@@ -7,9 +7,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0; /* Asegura que no haya margen exterior */
-    padding: 0; /* Asegura que no haya relleno interior */
-    box-sizing: border-box; /* Asegura que el ancho y alto se calculen con el borde y el relleno incluidos */
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 nav,
@@ -48,7 +48,7 @@ nav img {
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 80%;
-    height: auto; /* Ajustado para que el contenido defina la altura */
+    height: auto; 
     margin-top: 18px;
 }
 
@@ -79,9 +79,9 @@ nav img {
 footer {
     background: #ffffff;
     text-align: center;
-    position: fixed; /* Cambiado de absolute a fixed para anclar al fondo */
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 200px;
-    padding: 0; /* Asegura que no haya relleno interior */
+    padding: 0;
 }
